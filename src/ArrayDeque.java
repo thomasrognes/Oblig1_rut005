@@ -15,7 +15,7 @@ public class ArrayDeque<E> implements IDeque<E> {
             capacity = DEFAULT_CAPACITY;
         }
         this.mainArray = (E[]) new Object[capacity];
-        initialized = true;
+        initialized = false; 
     }
 
     /**
