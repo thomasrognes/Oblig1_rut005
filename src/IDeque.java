@@ -4,6 +4,8 @@
  */
 public interface IDeque<E> {
 
+
+
         /**
          * Retunerer hvor mange elementer samlingen inneholder.
          *
@@ -75,15 +77,23 @@ public interface IDeque<E> {
 
         /**
          * Retunerer en tabell med alle elementene i samlingen.
-         * @param a tabell med samme type som T[].
          * @return En tabell med alle elementene i samlingen.
          */
-        E[] toArray(E[] a);
+        E[] toArray();
 
         /**
          *
          * Fjerner alle elementene fra samlingen.
          */
         void clear();
+
+        /**
+         * Printer ut samlingen
+         */
+        void printDeque();
+
+
+
+
     }
 

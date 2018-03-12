@@ -1,3 +1,10 @@
+/**
+ * Obligatorisk oppgave 1
+ * @author rut005, Thomas Sebastian Rognes
+ *
+ * Deque Full Exception klasse
+ */
+
 public class DequeFullException extends RuntimeException {
 
     public DequeFullException(){

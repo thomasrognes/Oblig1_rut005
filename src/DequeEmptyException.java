@@ -1,3 +1,10 @@
+/**
+ * Obligatorisk oppgave 1
+ * @author rut005, Thomas Sebastian Rognes
+ *
+ * Deque Empty Exception klasse
+ */
+
 public class DequeEmptyException extends RuntimeException {
 
     public DequeEmptyException(){
